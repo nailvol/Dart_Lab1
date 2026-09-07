@@ -8,4 +8,5 @@ print (name);
 print (age);
 print (height);
 print (isStudent);
+print (name);
 }
