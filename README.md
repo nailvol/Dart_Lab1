@@ -12,6 +12,19 @@
 1. Клонировать репозиторий:
    ```bash
    git clone <url>
+
+git clone <url>
+2. Перейти в папку:
+bash
+cd lab1_dart
+3. Установить зависимости:
+
+bash
+dart pub get
+4. Запустить:
+
+bash
+dart run
 Чему я научился
 Синтаксис Dart: переменные, типы, var, final, const.
 
