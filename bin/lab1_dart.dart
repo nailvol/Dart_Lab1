@@ -1,27 +1,46 @@
 void main() {
-String? city = null;
-if (city != null){
-  print(
-    city.toUpperCase()
-    );
-  print(city?.toUpperCase());
-}
-String? nickname = null;
-String display=nickname ?? 'Аноним';
-print(display);
+  // 4.1. Условия
+  int score2 = 85;
+  String grade;
+  if (score2 >= 90) {
+    grade = 'A';
+  } else if (score2 >= 75) {
+    grade = 'B';
+  } else {
+    grade = 'C';
+  }
+  print(grade);
 
-const String appName = 'Lab1';
-final int startYear = 2026;
-print('$appName started in $startYear');
-var score = 95;
-var language = 'Dart';
-print ('$language: $score');
-String name = "Наиль";
-int age = 18;
-double height = 1.83;
-bool isStudent = true;
+  String result = score2 >= 60 ? 'Сдал' : 'Не сдал';
+  print(result);
 
-print ('Привет, $name! Тебе $age лет');
-print('через 5 лет тебе будет ${age + 5} лет.');
+  // 4.2. Циклы
+  for (int i = 0; i < 5; i++) {
+    print(i);
+  }
 
+  List<String> fruits3 = ['яблоко', 'банан', 'груша'];
+  for (var fruit in fruits3) {
+    print(fruit);
+  }
+
+  int n = 0;
+  while (n < 3) {
+    print(n);
+    n++;
+  }
+
+  // switch
+  String day = 'Пн';
+  switch (day) {
+    case 'Сб':
+    case 'Вс':
+      print('Выходной');
+      break;
+    case 'Пн':
+      print('Начало недели');
+      break;
+    default:
+      print('Рабочий день');
+  }
 }
