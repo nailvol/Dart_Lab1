@@ -19,6 +19,7 @@ git clone <url>
 2. Перейти в папку:
 bash
 cd lab1_dart
+***
 3. Установить зависимости:
 ***
 bash
@@ -31,8 +32,6 @@ dart run
 ***
 Чему я научился
 Синтаксис Dart: переменные, типы, var, final, const.
-
-Null safety: String?, ?., ??.
 
 Коллекции: List, Map, Set.
 
